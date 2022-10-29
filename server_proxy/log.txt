@@ -1,0 +1,1331 @@
+
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-api_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:26 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:26 GMT
+Connection: keep-alive
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:26 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:26 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:18:31 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:18:31 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:18:34 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:18:34 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:26 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:26 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:18:34 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:18:34 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-api_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:55 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:55 GMT
+Connection: keep-alive
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:00 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:00 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:55 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:18:55 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:14 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:14 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-api_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:19:30 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:19:30 GMT
+Connection: keep-alive
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:35 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:35 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:19:30 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:19:30 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:43 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:19:43 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api/users HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-api-users_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api/users HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api/users HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api/users HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"f9-fEojXt5bo+XVi1gvB0Q4a0w8dXA"
+Date: Sat, 29 Oct 2022 15:20:03 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-api_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:20:21 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:20:21 GMT
+Connection: keep-alive
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:20:21 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:20:21 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:20:26 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:20:26 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:20:28 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:20:28 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-api_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:21:27 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:21:27 GMT
+Connection: keep-alive
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:21:32 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:21:32 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /api HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-None-Match: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request found in cache
+ 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:21:27 GMT
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"22-rMpy/8D+yKaEoCkBIQF3Hhv64Po"
+Date: Sat, 29 Oct 2022 15:21:27 GMT
+Connection: keep-alive
+
+
+ 
+ --------
+[SERVER_PROXY]: Client request: 
+ GET /favicon.ico HTTP/1.1
+Host: 10.0.2.15:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:105.0) Gecko/20100101 Firefox/105.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://10.0.2.15:8080/api
+
+ 
+ -------- 
+ [SERVER_PROXY]: Searching for request in cache
+ 
+ -------- 
+ [SERVER_PROXY]: Deleting outdated cache
+ 
+ -------- 
+ [SERVER_PROXY]: Request not in cache
+ 
+ --------
+[SERVER_PROXY]: Cache of %s saved
+ 
+ GET_-favicon.ico_HTTP-1.1 
+ --------
+[SERVER_PROXY]: Server response: 
+ HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:21:39 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 150
+Date: Sat, 29 Oct 2022 15:21:39 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /favicon.ico</pre>
+</body>
+</html>
+ 
+ --------
