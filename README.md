@@ -64,36 +64,36 @@ Para este despliegue es necesario crear 4 instancias de EC2, 3 que servirían pa
 Se debe habilitar regla de entrada TCP en el puerto que se quiere utilizar para cada servidor donde se montará la app. En nuestro caso utilizamos 3000
 
 Abrimos la consola y ejecutamos los siguientes comandos:
-	sudo su
-	apt-get update
-	apt-get install nodejs -y
-	apt-get install npm -y
-	git clone https://github.com/Bakuraza1/cache_proxy
-	cd cache_proxy/server_backend
-	npm i 
-	nano .env 
-		- Poner PORT=3000
-	npm start
-
-
+~~~
+sudo su
+apt-get update
+apt-get install nodejs -y
+apt-get install npm -y
+git clone https://github.com/Bakuraza1/cache_proxy
+cd cache_proxy/server_backend
+npm i 
+nano .env 
+	- Poner PORT=3000
+npm start
+~~~
 Luego de haber configurado los 3 servidores pasamos al servidor proxy
 
 #### Proxy
 Se debe habilitar regla de entrada TCP en el puerto que se quiere utilizar. En nuestro caso 8080
 
 Abrimos la consola y ejecutamos los siguientes comandos:
-	sudo su
-	apt-get update
-	apt install build-essential
-	git clone https://github.com/Bakuraza1/cache_proxy
-	cd cache_proxy/server_proxy
-	nano env.h 
-		- Se debe poner en el la constante SERVER_HOST la ip privada del servidor proxy
-		- Se debe poner en la constante SERVER_LIST se debe de poner ip:puerto de los servidores a 		utilizar separados por '/'. (Las ips deben ser las públicas)
-		- Se debe poner en la constante SERVER_NUMBERS el numero de servidores a utilizar 
-	gcc server.c env.h general_functions.h -o server
-
-
+~~~
+sudo su
+apt-get update
+apt install build-essential
+git clone https://github.com/Bakuraza1/cache_proxy
+cd cache_proxy/server_proxy
+nano env.h 
+	- Se debe poner en el la constante SERVER_HOST la ip privada del servidor proxy
+	- Se debe poner en la constante SERVER_LIST se debe de poner ip:puerto de los servidores a 		utilizar separados por '/'. (Las ips deben ser las públicas)
+	- Se debe poner en la constante SERVER_NUMBERS el numero de servidores a utilizar 
+gcc server.c env.h general_functions.h -o server
+~~~
 ## Conclusiones 
 En general se logró el proposito de la práctica, se creó el proxy con funcionalidades de cache y balanceador de carga funcionales, y al realizar pruebas estas fueron exitosas, aun así, este puede ser trabajado y mejorado más allá de lo que se presenta aquí. 
 
