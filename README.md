@@ -24,7 +24,7 @@ En el caso de este proyecto en particular se instancian 3 servidores backend en 
 ### Sockets
 Para establecer las conexiones cliente-proxy y proxy-servidor se utilizó la API sockets, dicha API ayuda a establecer un enlace entre dos entidades, dicho enlace permitirá el intercambio de información entre las entidades conectadas.
 
-Además para el uso de los sockets se utilizó la siguiente guía. 
+Además para el uso de los sockets se utilizó la siguiente guía.  
 ![Socket in Computer Network - GeeksforGeeks](https://media.geeksforgeeks.org/wp-content/uploads/20200509144631/223-1.png)
 ### Proxy
 El proxy es la sección principal de este proyecto, y con el fin de explicarlo en profundidad se dividirá esta sección en diferentes módulos. Estos Módulos son representaciones de alto nivel de las funciones del código. 
